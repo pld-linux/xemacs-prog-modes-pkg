@@ -2,7 +2,7 @@ Summary:	Support for various programming languages
 Summary(pl):	Support for various programming languages
 Name:		xemacs-prog-modes-pkg
 %define 	srcname	prog-modes
-Version:	1.30
+Version:	1.32
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
