@@ -2,7 +2,7 @@
 Summary:	XEmacs modes for various programming languages
 Summary(pl):	XEmacsowe tryby do rozmaitych jêzyków programowania
 Name:		xemacs-%{srcname}-pkg
-Version:	1.59
+Version:	1.67
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
