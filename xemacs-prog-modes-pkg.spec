@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 XEmacs modes for various programming languages: Perl, Python, SQL,
 AWK, TCL and many more.
 
-%description -l pl 
-XEmacsowe tryby do kilkunastu rozmaitych jêzyków programowania, 
-m.in. do: Perla, Pythona, SQLa, AWKa i TCLa.
+%description -l pl
+XEmacsowe tryby do kilkunastu rozmaitych jêzyków programowania, m.in.
+do: Perla, Pythona, SQLa, AWKa i TCLa.
 
 %prep
 %setup -q -c
@@ -33,7 +33,7 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/prog-modes/ChangeLog 
+gzip -9nf lisp/prog-modes/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
