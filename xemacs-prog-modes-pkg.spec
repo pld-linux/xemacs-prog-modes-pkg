@@ -19,11 +19,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 XEmacs modes for various programming languages: Perl, SQL,
-AWK, TCL and many more.
+AWK, Tcl and many more.
 
 %description -l pl
 XEmacsowe tryby do kilkunastu rozmaitych jêzyków programowania, m.in.
-do: Perla, SQLa, AWKa i TCLa.
+do: Perla, SQL-a, AWK-a i Tcl-a.
 
 %prep
 %setup -q -c
