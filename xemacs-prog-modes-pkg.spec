@@ -2,7 +2,7 @@
 Summary:	XEmacs modes for various programming languages
 Summary(pl):	XEmacsowe tryby do rozmaitych jêzyków programowania
 Name:		xemacs-%{srcname}-pkg
-Version:	1.53
+Version:	1.59
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
@@ -33,8 +33,6 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/prog-modes/ChangeLog
-
 # remove .el file if corresponding .elc file exists
 find $RPM_BUILD_ROOT -type f -name "*.el" | while read i; do test ! -f ${i}c || rm -f $i; done
 
@@ -43,6 +41,6 @@ rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/prog-modes/ChangeLog.gz
+%doc lisp/prog-modes/ChangeLog
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.el*
