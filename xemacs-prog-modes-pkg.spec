@@ -2,8 +2,8 @@
 Summary:	XEmacs modes for various programming languages
 Summary(pl):	XEmacsowe tryby do rozmaitych jêzyków programowania
 Name:		xemacs-%{srcname}-pkg
-Version:	1.40
-Release:	2
+Version:	1.41
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Group(de):	Applikationen/Editors/Emacs
