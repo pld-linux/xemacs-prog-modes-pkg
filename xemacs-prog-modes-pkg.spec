@@ -1,6 +1,6 @@
 %define 	srcname	prog-modes
 Summary:	XEmacs modes for various programming languages
-Summary(pl.UTF-8):   XEmacsowe tryby do rozmaitych języków programowania
+Summary(pl.UTF-8):	XEmacsowe tryby do rozmaitych języków programowania
 Name:		xemacs-%{srcname}-pkg
 Version:	1.91
 Release:	3
