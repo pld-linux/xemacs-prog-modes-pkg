@@ -1,6 +1,6 @@
 %define 	srcname	prog-modes
 Summary:	XEmacs modes for various programming languages
-Summary(pl):	XEmacsowe tryby do rozmaitych jêzyków programowania
+Summary(pl.UTF-8):   XEmacsowe tryby do rozmaitych jÄ™zykÃ³w programowania
 Name:		xemacs-%{srcname}-pkg
 Version:	1.91
 Release:	3
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 XEmacs modes for various programming languages: Perl, SQL,
 AWK, Tcl and many more.
 
-%description -l pl
-XEmacsowe tryby do kilkunastu rozmaitych jêzyków programowania, m.in.
+%description -l pl.UTF-8
+XEmacsowe tryby do kilkunastu rozmaitych jÄ™zykÃ³w programowania, m.in.
 do: Perla, SQL-a, AWK-a i Tcl-a.
 
 %prep
