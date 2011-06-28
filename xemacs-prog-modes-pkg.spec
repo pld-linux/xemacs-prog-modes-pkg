@@ -2,12 +2,12 @@
 Summary:	XEmacs modes for various programming languages
 Summary(pl.UTF-8):	XEmacsowe tryby do rozmaitych języków programowania
 Name:		xemacs-%{srcname}-pkg
-Version:	1.91
-Release:	3
+Version:	2.20
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	b0203d7e022fdf730845ffbceaf41bf0
+# Source0-md5:	f70ec2feadd36c8be1c5095e2791a882
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
